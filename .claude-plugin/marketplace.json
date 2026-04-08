@@ -5,7 +5,7 @@
     "email": "zechen@orchestra-research.com"
   },
   "metadata": {
-    "description": "Comprehensive library of 86 AI research engineering skills enabling autonomous AI research from hypothesis to experimental verification",
+    "description": "Comprehensive library of 89 AI research engineering skills enabling autonomous AI research from hypothesis to experimental verification",
     "version": "1.1.1"
   },
   "plugins": [
@@ -130,7 +130,8 @@
         "./10-optimization/flash-attention",
         "./10-optimization/gguf",
         "./10-optimization/gptq",
-        "./10-optimization/hqq"
+        "./10-optimization/hqq",
+        "./10-optimization/ml-training-recipes"
       ]
     },
     {
@@ -216,14 +217,17 @@
     },
     {
       "name": "multimodal",
-      "description": "Vision, audio, and multimodal models including CLIP, Whisper, LLaVA, BLIP-2, Segment Anything, Stable Diffusion, and AudioCraft. Use when working with images, audio, or multimodal tasks.",
+      "description": "Vision, audio, and multimodal models including CLIP, Whisper, LLaVA, BLIP-2, Segment Anything, Stable Diffusion, AudioCraft, Cosmos Policy, OpenPI, and OpenVLA-OFT. Use when working with images, audio, multimodal tasks, or vision-language-action robot policies.",
       "source": "./",
       "strict": false,
       "skills": [
         "./18-multimodal/audiocraft",
         "./18-multimodal/blip-2",
         "./18-multimodal/clip",
+        "./18-multimodal/cosmos-policy",
         "./18-multimodal/llava",
+        "./18-multimodal/openpi",
+        "./18-multimodal/openvla-oft",
         "./18-multimodal/segment-anything",
         "./18-multimodal/stable-diffusion",
         "./18-multimodal/whisper"
@@ -254,11 +258,12 @@
     },
     {
       "name": "ml-paper-writing",
-      "description": "Write publication-ready ML/AI/Systems papers for NeurIPS, ICML, ICLR, ACL, AAAI, COLM, OSDI, NSDI, ASPLOS, SOSP. Includes LaTeX templates, citation verification, reviewer guidelines, and writing best practices.",
+      "description": "Write publication-ready ML/AI/Systems papers for NeurIPS, ICML, ICLR, ACL, AAAI, COLM, OSDI, NSDI, ASPLOS, SOSP. Includes LaTeX templates, citation verification, reviewer guidelines, publication-quality figure generation, and writing best practices.",
       "source": "./",
       "strict": false,
       "skills": [
-        "./20-ml-paper-writing"
+        "./20-ml-paper-writing/ml-paper-writing",
+        "./20-ml-paper-writing/academic-plotting"
       ]
     },
     {
